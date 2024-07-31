@@ -27,7 +27,7 @@ configure_package_config_file("${CMAKE_CURRENT_SOURCE_DIR}/LingmoWaylandProtocol
                               INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
                               PATH_VARS KDE_INSTALL_DATADIR
                               )
-ecm_setup_version(PROJECT VARIABLE_PREFIX PLASMA_WAYLAND_PROTOCOLS
+ecm_setup_version(PROJECT VARIABLE_PREFIX LINGMO_WAYLAND_PROTOCOLS
                         VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/lingmo_wayland_protocols_version.h"
                         PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/LingmoWaylandProtocolsConfigVersion.cmake"
                         SOVERSION 5)

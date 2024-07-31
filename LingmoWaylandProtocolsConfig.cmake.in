@@ -6,4 +6,4 @@
 
 include(CMakeFindDependencyMacro)
 
-set(PLASMA_WAYLAND_PROTOCOLS_DIR "@PACKAGE_KDE_INSTALL_DATADIR@/lingmo-wayland-protocols")
+set(LINGMO_WAYLAND_PROTOCOLS_DIR "@PACKAGE_KDE_INSTALL_DATADIR@/lingmo-wayland-protocols")
